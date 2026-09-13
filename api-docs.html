@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tabi API reference." />
+    <title>API Reference — Tabi</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/tabi-logo.svg" />
+    <link rel="stylesheet" href="./api-docs.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="./index.html" aria-label="Tabi home"><img src="./assets/tabi-logo.svg" alt="Tabi" /></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"><img src="./assets/hamburger-menu.svg" alt="" /><span class="sr-only">Toggle menu</span></button>
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-links"><a href="./api-docs.html">API Docs</a><a href="./index.html#developer">Developer</a><a href="./index.html#sdk">SDK</a><a href="./index.html#pricing">Pricing</a></div>
+          <div class="nav-actions"><a class="button button-login" href="./index.html#login">Login</a><a class="button button-primary" href="./index.html#start">Start for free</a></div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="docs-layout">
+      <aside class="docs-sidebar" aria-label="Documentation navigation">
+        <label class="docs-search"><span aria-hidden="true">⌕</span><input type="search" placeholder="Search documentation" aria-label="Search documentation" /><kbd>⌘ K</kbd></label>
+        <nav>
+          <p class="nav-label">Getting started</p>
+          <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Introduction <span>↗</span></a>
+          <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Authentication <span>↗</span></a>
+          <p class="nav-label">API reference</p>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference/authcontroller_register" target="_blank" rel="noopener noreferrer">Auth <span>7</span></a>
+          <a class="is-active" href="#register">Register</a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Workspaces <span>6</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">API Keys <span>4</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Channels <span>9</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Channel messaging actions <span>51</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Health <span>2</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Contacts <span>10</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Conversations <span>10</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Messages <span>1</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Integration messaging <span>1</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Quick Replies <span>4</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Notifications <span>4</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Automation Templates <span>2</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Automation Installs <span>7</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Integrations <span>7</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Webhook Subscriptions <span>11</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Campaigns <span>9</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Analytics <span>3</span></a>
+          <a class="nav-parent" href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Files <span>5</span></a>
+        </nav>
+        <div class="docs-sidebar-foot"><span class="status-dot"></span>API status operational</div>
+      </aside>
+
+      <main class="docs-main" id="register">
+        <div class="breadcrumbs"><a href="./index.html">Tabi API</a><span>/</span><a href="#auth">Auth</a></div>
+        <div class="endpoint-heading">
+          <span class="method">POST</span>
+          <h1>/api/v1/auth/register</h1>
+        </div>
+        <p class="lead">Create a Tabi account and optionally create a workspace for your team.</p>
+        <div class="endpoint-url"><span>https://api.c36.online/api/v1/auth/register</span><button class="copy-button" type="button" data-copy="https://api.c36.online/api/v1/auth/register">Copy</button></div>
+        <div class="reference-actions"><a href="https://tab-fewd.readme.io/reference/authcontroller_register" target="_blank" rel="noopener noreferrer">Open live API reference <span aria-hidden="true">↗</span></a></div>
+
+        <section class="api-coverage" id="api-coverage">
+          <div class="coverage-heading"><div><h2>Full API coverage</h2><p>153 operations across 19 endpoint groups are available in the official Tabi reference.</p></div><a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer">Browse all endpoints ↗</a></div>
+          <div class="coverage-grid">
+            <a href="https://tab-fewd.readme.io/reference/authcontroller_register" target="_blank" rel="noopener noreferrer"><strong>Auth</strong><span>7 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Workspaces</strong><span>6 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>API Keys</strong><span>4 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Channels</strong><span>9 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Messaging actions</strong><span>51 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Contacts</strong><span>10 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Conversations</strong><span>10 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Webhooks</strong><span>11 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Campaigns</strong><span>9 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Automations</strong><span>9 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Integrations</strong><span>7 operations</span></a>
+            <a href="https://tab-fewd.readme.io/reference" target="_blank" rel="noopener noreferrer"><strong>Analytics &amp; files</strong><span>8 operations</span></a>
+          </div>
+        </section>
+
+        <section id="authentication">
+          <h2>Body parameters</h2>
+          <div class="params-table" role="table" aria-label="Request body parameters">
+            <div class="param-row param-head" role="row"><span role="columnheader">Name</span><span role="columnheader">Type</span><span role="columnheader">Description</span></div>
+            <div class="param-row" role="row"><div role="cell"><code>email</code><em>required</em></div><code role="cell">string</code><p role="cell">The email address for the account.</p></div>
+            <div class="param-row" role="row"><div role="cell"><code>password</code><em>required</em></div><code role="cell">string</code><p role="cell">A secure password for the account.</p></div>
+            <div class="param-row" role="row"><div role="cell"><code>firstName</code></div><code role="cell">string</code><p role="cell">The account holder’s first name.</p></div>
+            <div class="param-row" role="row"><div role="cell"><code>lastName</code></div><code role="cell">string</code><p role="cell">The account holder’s last name.</p></div>
+            <div class="param-row" role="row"><div role="cell"><code>workspaceName</code></div><code role="cell">string</code><p role="cell">Omit when using an invite token to join an existing workspace.</p></div>
+            <div class="param-row" role="row"><div role="cell"><code>inviteToken</code></div><code role="cell">string</code><p role="cell">Team invite token from email. Register with the invited email address.</p></div>
+          </div>
+        </section>
+
+        <section id="response">
+          <h2>Response</h2>
+          <div class="response-heading"><span class="status-code">201</span><span>Account created</span></div>
+          <pre><code>{
+  "success": true,
+  "message": "Account created successfully"
+}</code></pre>
+        </section>
+      </main>
+
+      <aside class="on-page" aria-label="On this page">
+        <p>On this page</p>
+        <a class="is-current" href="#register">Register</a>
+        <a href="#api-coverage">Full API coverage</a>
+        <a href="#authentication">Body parameters</a>
+        <a href="#response">Response</a>
+        <div class="need-help"><strong>Need help?</strong><span>Get in touch with the Tabi team.</span><a href="mailto:hi@tabi.com">hi@tabi.com</a></div>
+      </aside>
+    </div>
+    <script type="module" src="./src/api-docs.ts"></script>
+  </body>
+</html>

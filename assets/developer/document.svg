@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="40" viewBox="0 0 36 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Document">
+<foreignObject x="-8.61751" y="-8.61751" width="53.235" height="57.235"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(4.31px);clip-path:url(#bgblur_0_0_10_clip_path);height:100%;width:100%"></div></foreignObject><path id="Path" data-figma-bg-blur-radius="8.61751" d="M26.382 0H9.62C3.54 0 0 3.56 0 9.66V30.32C0 36.52 3.54 40 9.62 40H26.382C32.56 40 36 36.52 36 30.32V9.66C36 3.56 32.56 0 26.382 0Z" fill="url(#paint0_linear_0_10)" fill-opacity="0.3"/>
+<path id="Combined-Shape" d="M10.16 27.48H25.84C26.638 27.56 27.24 28.24 27.24 29.06C27.24 29.858 26.638 30.54 25.84 30.62H10.16C9.56 30.7 8.98 30.4 8.66 29.9C8.34 29.38 8.34 28.72 8.66 28.22C8.98 27.7 9.56 27.42 10.16 27.48ZM25.84 18.358C26.7 18.358 27.4 19.06 27.4 19.92C27.4 20.78 26.7 21.48 25.84 21.48H10.16C9.298 21.48 8.6 20.78 8.6 19.92C8.6 19.06 9.298 18.358 10.16 18.358H25.84ZM16.138 9.3C17 9.3 17.7 10 17.7 10.858C17.7 11.74 17 12.44 16.138 12.44H10.16C9.298 12.44 8.6 11.74 8.6 10.88C8.6 10.02 9.298 9.32 10.16 9.32V9.3H16.138Z" fill="#4E46E5"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_10_clip_path" transform="translate(8.61751 8.61751)"><path d="M26.382 0H9.62C3.54 0 0 3.56 0 9.66V30.32C0 36.52 3.54 40 9.62 40H26.382C32.56 40 36 36.52 36 30.32V9.66C36 3.56 32.56 0 26.382 0Z"/>
+</clipPath><linearGradient id="paint0_linear_0_10" x1="3.8524" y1="3.69048" x2="44.3359" y2="22.5561" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D7C4FA"/>
+<stop offset="0.447036" stop-color="#A399FF"/>
+<stop offset="1" stop-color="#8B73EB"/>
+</linearGradient>
+</defs>
+</svg>

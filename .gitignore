@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+
+# Local environment variables and secrets
+.env
+.env/
+.env.*
+!.env.example
+!.env.*.example

@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Time Square - Iconly Pro">
+<foreignObject x="-29.4701" y="-29.9701" width="107.94" height="107.94"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(17.24px);clip-path:url(#bgblur_0_0_19_clip_path);height:100%;width:100%"></div></foreignObject><path id="Vector" data-figma-bg-blur-radius="34.4701" fill-rule="evenodd" clip-rule="evenodd" d="M32.568 28.802C32.288 29.272 31.79 29.534 31.278 29.534C31.018 29.534 30.752 29.466 30.512 29.324L23.73 25.278C23.276 25.008 22.998 24.516 22.998 23.99V15.266C22.998 14.438 23.67 13.766 24.498 13.766C25.326 13.766 25.998 14.438 25.998 15.266V23.138L32.048 26.746C32.76 27.172 32.992 28.092 32.568 28.802ZM24.5 4.5C10.102 4.5 5 9.602 5 24C5 38.396 10.102 43.5 24.5 43.5C38.898 43.5 44 38.396 44 24C44 9.602 38.898 4.5 24.5 4.5Z" fill="url(#paint0_linear_0_19)" fill-opacity="0.3"/>
+</g>
+<defs>
+<clipPath id="bgblur_0_0_19_clip_path" transform="translate(29.4701 29.9701)"><path fill-rule="evenodd" clip-rule="evenodd" d="M32.568 28.802C32.288 29.272 31.79 29.534 31.278 29.534C31.018 29.534 30.752 29.466 30.512 29.324L23.73 25.278C23.276 25.008 22.998 24.516 22.998 23.99V15.266C22.998 14.438 23.67 13.766 24.498 13.766C25.326 13.766 25.998 14.438 25.998 15.266V23.138L32.048 26.746C32.76 27.172 32.992 28.092 32.568 28.802ZM24.5 4.5C10.102 4.5 5 9.602 5 24C5 38.396 10.102 43.5 24.5 43.5C38.898 43.5 44 38.396 44 24C44 9.602 38.898 4.5 24.5 4.5Z"/>
+</clipPath><linearGradient id="paint0_linear_0_19" x1="9.17343" y1="8.09822" x2="51.2688" y2="29.8947" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B693F6"/>
+<stop offset="0.447036" stop-color="#7666FF"/>
+<stop offset="1" stop-color="#6748E5"/>
+</linearGradient>
+</defs>
+</svg>

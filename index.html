@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tabi developer platform" />
+    <title>Tabi</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#" aria-label="Tabi home">
+          <img src="./assets/tabi-logo.svg" alt="Tabi" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <img src="./assets/hamburger-menu.svg" alt="" />
+          <span class="sr-only">Toggle menu</span>
+        </button>
+
+        <div class="nav-menu" id="nav-menu">
+          <div class="nav-links">
+            <a href="./api-docs.html">API Docs</a>
+            <a href="#developer">Developer</a>
+            <a href="#sdk">SDK</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+
+          <div class="nav-actions">
+            <a class="button button-login" href="#login">Login</a>
+            <a class="button button-primary" href="#start">Start for free</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-shell" aria-label="Tabi website">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-grid" aria-hidden="true">
+          <span class="grid-cell grid-cell-one"></span>
+          <span class="grid-cell grid-cell-two"></span>
+          <span class="grid-cell grid-cell-three"></span>
+          <span class="grid-cell grid-cell-four"></span>
+          <span class="sparkle sparkle-one"></span>
+          <span class="sparkle sparkle-two"></span>
+          <span class="sparkle sparkle-three"></span>
+        </div>
+
+        <div class="hero-copy">
+          <h1 id="hero-title">WhatsApp API <span class="hero-for">for</span> <span class="hero-word">Businesses</span></h1>
+          <p>
+            Connect your WhatsApp number and start messaging today. No approval queue,<br />
+            no templates to submit, no waiting on Meta.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button hero-primary" href="#start">Start for free</a>
+            <a class="button hero-secondary" href="#demo">
+              <span>Watch Demo</span>
+              <img src="./assets/hero/play.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-glows" aria-hidden="true">
+          <img class="hero-glow hero-glow-left" src="./assets/hero/ellipse-blur-correct.svg" alt="" />
+          <img class="hero-glow hero-glow-right" src="./assets/hero/ellipse-blur-correct.svg" alt="" />
+        </div>
+        <div class="hero-art-frame">
+          <img class="hero-art" src="./assets/hero/raw-3.png" alt="A hand holding illuminated WhatsApp and Tabi icons" />
+        </div>
+      </section>
+
+      <section class="partners" aria-labelledby="partners-title">
+        <h2 id="partners-title">Our Partners</h2>
+        <div class="partner-logos">
+          <img class="partner-logo partner-axia" src="./assets/partners/axia-hub.svg" alt="Axia Hub" />
+          <div class="partner-startup">
+            <img src="./assets/partners/startup-south.png" alt="StartupSouth" />
+          </div>
+          <img class="partner-logo partner-psirs" src="./assets/partners/psirs.png" alt="PSIRS" />
+          <img class="partner-logo partner-qeda" src="./assets/partners/qeda.svg" alt="QEDA" />
+          <img class="partner-logo partner-tectegy" src="./assets/partners/tectegy.svg" alt="Tectegy" />
+        </div>
+      </section>
+
+      <section class="use-cases" aria-labelledby="use-cases-title">
+        <div class="use-cases-heading">
+          <h2 id="use-cases-title">One <span>API,</span> many ways<br />to actually use it</h2>
+          <p>
+            Build messaging straight into your product. Send OTPs, alerts, and two-way conversations<br />
+            through a plain HTTP API, with docs and SDKs for Python, PHP, Android, and Flutter.
+          </p>
+        </div>
+
+        <div class="use-case-grid">
+          <article class="use-case-card" tabindex="0">
+            <img class="use-case-image use-case-developers" src="./assets/use-cases/developers.png" alt="Developer working at a computer" />
+            <div class="use-case-shade"></div>
+            <div class="use-case-action" aria-hidden="true">
+              <img class="use-case-plus" src="./assets/use-cases/plus.svg" alt="" />
+              <img class="use-case-arrow" src="./assets/use-cases/arrow.svg" alt="" />
+            </div>
+            <div class="use-case-copy">
+              <h3>Developers</h3>
+              <p>Integrate messaging into your product. Send OTPs, alerts, and two-way conversations via a simple HTTP API, with SDKs for Python, PHP, Android, and Flutter.</p>
+            </div>
+          </article>
+
+          <article class="use-case-card" tabindex="0">
+            <img class="use-case-image" src="./assets/use-cases/government.png" alt="A person using a tablet" />
+            <div class="use-case-shade"></div>
+            <div class="use-case-action" aria-hidden="true">
+              <img class="use-case-plus" src="./assets/use-cases/plus.svg" alt="" />
+              <img class="use-case-arrow" src="./assets/use-cases/arrow.svg" alt="" />
+            </div>
+            <div class="use-case-copy">
+              <h3>Government</h3>
+              <p>Keep citizens informed with secure service updates, public alerts, verification messages, and responsive two-way support.</p>
+            </div>
+          </article>
+
+          <article class="use-case-card" tabindex="0">
+            <img class="use-case-image" src="./assets/use-cases/businesses.png" alt="A business owner arranging flowers" />
+            <div class="use-case-shade"></div>
+            <div class="use-case-action" aria-hidden="true">
+              <img class="use-case-plus" src="./assets/use-cases/plus.svg" alt="" />
+              <img class="use-case-arrow" src="./assets/use-cases/arrow.svg" alt="" />
+            </div>
+            <div class="use-case-copy">
+              <h3>Businesses</h3>
+              <p>Turn conversations into conversions with order updates, customer care, reminders, and personalized engagement at scale.</p>
+            </div>
+          </article>
+
+          <article class="use-case-card" tabindex="0">
+            <img class="use-case-image" src="./assets/use-cases/healthcare.png" alt="A healthcare professional" />
+            <div class="use-case-shade"></div>
+            <div class="use-case-action" aria-hidden="true">
+              <img class="use-case-plus" src="./assets/use-cases/plus.svg" alt="" />
+              <img class="use-case-arrow" src="./assets/use-cases/arrow.svg" alt="" />
+            </div>
+            <div class="use-case-copy">
+              <h3>Healthcare</h3>
+              <p>Send appointment reminders, care updates, and timely patient communication through familiar WhatsApp conversations.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <h2 id="features-title">WhatsApp without Limit</h2>
+
+        <div class="feature-grid">
+          <article class="feature-item feature-item-short">
+            <div class="feature-icon"><img src="./assets/features/multi-device.svg" alt="" /></div>
+            <div class="feature-connector" aria-hidden="true"></div>
+            <div class="feature-copy">
+              <h3>Stable Multi-Device API</h3>
+              <p>Connect and manage messaging across multiple devices with a reliable API built for consistency, uptime, and seamless scaling as your business grows.</p>
+            </div>
+          </article>
+
+          <article class="feature-item feature-item-long">
+            <div class="feature-icon"><img src="./assets/features/groups.svg" alt="" /></div>
+            <div class="feature-connector" aria-hidden="true"></div>
+            <div class="feature-copy">
+              <h3>Group Statuses, Channels</h3>
+              <p>Engage your audience in more dynamic ways by supporting group messaging, broadcast statuses, and channel-based communication from a single platform.</p>
+            </div>
+          </article>
+
+          <article class="feature-item feature-item-short">
+            <div class="feature-icon"><img src="./assets/features/media.svg" alt="" /></div>
+            <div class="feature-connector" aria-hidden="true"></div>
+            <div class="feature-copy">
+              <h3>All Media, Interactive Messages</h3>
+              <p>Send rich, engaging content including images, videos, documents, buttons, and other interactive message formats to create better user experiences.</p>
+            </div>
+          </article>
+
+          <article class="feature-item feature-item-long">
+            <div class="feature-icon"><img src="./assets/features/support.svg" alt="" /></div>
+            <div class="feature-connector" aria-hidden="true"></div>
+            <div class="feature-copy">
+              <h3>Fast &amp; Help Development</h3>
+              <p>Get the support you need, when you need it. Access responsive, knowledgeable developer assistance to help you integrate, troubleshoot, and scale.</p>
+            </div>
+          </article>
+
+          <article class="feature-item feature-item-long">
+            <div class="feature-icon"><img src="./assets/features/no-charges.svg" alt="" /></div>
+            <div class="feature-connector" aria-hidden="true"></div>
+            <div class="feature-copy">
+              <h3>No Per-Message Charges and<br />No Approval</h3>
+              <p>Operate without restrictive pricing or delays. Send messages freely without worrying about per-message fees or lengthy approval processes.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="developer-section" aria-labelledby="developer-title">
+        <div class="developer-heading">
+          <h2 id="developer-title">Built for developers,<br />usable by everyone else</h2>
+          <p>Integrate WhatsApp into any CRM, ERP, or website with simple HTTP requests. Our<br />tutorials and code examples help developers send and receive texts, locations, buttons,<br />audio, videos, and other messages for bots or customer support.</p>
+        </div>
+
+        <div class="developer-visual" aria-hidden="true">
+          <div class="developer-resource resource-location"><img src="./assets/developer/location.svg" alt="" /></div>
+          <div class="developer-resource resource-voice"><img src="./assets/developer/voice.svg" alt="" /></div>
+          <div class="developer-resource resource-pdf"><img src="./assets/developer/pdf.svg" alt="" /></div>
+          <div class="developer-resource resource-video"><img src="./assets/developer/video.svg" alt="" /></div>
+          <div class="developer-resource resource-image"><img src="./assets/developer/image.svg" alt="" /></div>
+          <div class="developer-resource resource-document"><img src="./assets/developer/document.svg" alt="" /></div>
+
+          <div class="developer-orbit">
+            <div class="developer-core"><img src="./assets/developer/messages.svg" alt="" /></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="capabilities" aria-labelledby="capabilities-title">
+        <div class="capabilities-intro">
+          <h2 id="capabilities-title">Everything you need to<br />build on WhatsApp</h2>
+          <a class="capabilities-cta" href="#start">Get started in Minutes</a>
+        </div>
+        <div class="capabilities-grid">
+          <article class="capability-card"><img src="./assets/capabilities/validation.svg" alt="" /><h3>Whatsapp Number Validation</h3><p>Check if phone numbers are registered on WhatsApp before sending messages-globally</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/webhooks.svg" alt="" /><h3>Real-Time Webhooks</h3><p>Receive instant updates on message status, events, and user actions, enabling faster reactions and smarter automation.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/low-code.svg" alt="" /><h3>Low-code &amp; No-code Friendly</h3><p>Build and launch messaging workflows without heavy engineering effort, making it accessible for both developers and non-technical teams.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/channels.svg" alt="" /><h3>WhatsApp channels, groups &amp;<br />communities</h3><p>Programmatically post and manage WhatsApp status, channels, communities &amp; groups updates to engage your audience passively.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/approvals.svg" alt="" /><h3>No Template or Approvals</h3><p>Send messages freely without pre-approved templates or platform restrictions, giving you full control over your communication.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/orders.svg" alt="" /><h3>Orders &amp; Product Automation</h3><p>Automate order flows, product inquiries, and purchase journeys directly within chats to streamline your business operations.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/devices.svg" alt="" /><h3>Multiple Device Connection</h3><p>Programmatically manage and publish status updates to keep your audience informed and engaged.</p></article>
+          <article class="capability-card"><img src="./assets/capabilities/media.svg" alt="" /><h3>All Media &amp; Messages Types</h3><p>Support for text, images, videos, documents, and more, so you can communicate in the most effective format every time.</p></article>
+        </div>
+      </section>
+
+      <section class="faq-contact" aria-labelledby="faq-title">
+        <img class="faq-background-blur faq-background-blur-left" src="./assets/faq/blur-left.svg" alt="" aria-hidden="true" />
+        <img class="faq-background-blur faq-background-blur-right" src="./assets/faq/blur-right.svg" alt="" aria-hidden="true" />
+        <div class="faq-column">
+          <h2 id="faq-title">Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <article class="faq-item is-open"><button class="faq-trigger" type="button" aria-expanded="true"><span>What is Tabi?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>Tabi is a WhatsApp business messaging platform: shared inbox, automations, campaigns, AI helpers, and a full HTTP API so your team and your product can send and receive messages at scale.</p></div></article>
+            <article class="faq-item"><button class="faq-trigger" type="button" aria-expanded="false"><span>Do I need WhatsApp Business API approval to start?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>You can explore the product and integrate using our guides immediately. Production messaging follows WhatsApp and provider rules; we help you connect numbers and stay compliant as you scale.</p></div></article>
+            <article class="faq-item"><button class="faq-trigger" type="button" aria-expanded="false"><span>Can my developers integrate with our CRM or ERP?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>Yes. Use webhooks for real-time events, REST endpoints for sends and contacts, and official SDKs where you want typed clients. Many teams connect CRMs, billing stacks, and internal tools.</p></div></article>
+            <article class="faq-item"><button class="faq-trigger" type="button" aria-expanded="false"><span>How does billing work?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>Plans are billed on a subscription basis with local payment options where supported. You can start on a trial or entry tier and upgrade as channels, seats, or API usage grow.</p></div></article>
+            <article class="faq-item"><button class="faq-trigger" type="button" aria-expanded="false"><span>How many languages does the API support?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>Message content is UTF-8: you can send and receive text in the languages your customers use. Dashboard and docs are primarily English today.</p></div></article>
+            <article class="faq-item"><button class="faq-trigger" type="button" aria-expanded="false"><span>What AI features do you offer?</span><img src="./assets/faq/arrow-up.svg" alt="" /></button><div class="faq-answer"><p>Workspace-configurable AI can assist with drafts, summaries, and workflow steps depending on your plan. Exact capabilities are shown in-product and in the API reference.</p></div></article>
+          </div>
+        </div>
+        <div class="faq-contact-column">
+          <aside class="contact-card"><h3>Got a question for us?</h3><p>Feel free to reach out to <a href="mailto:hi@tabi.com">hi@tabi.com</a></p><p>or message us on WhatsApp <a href="#start">@tabiafrica</a></p><img class="contact-divider" src="./assets/faq/contact-divider.svg" alt="" aria-hidden="true" /><p class="contact-note">No monthly volume restriction, no hidden fees. All done at a glance,<br />just the way you are used to</p><a class="contact-cta" href="#start">Start for free</a></aside>
+          <div class="contact-illustration" aria-hidden="true"><img class="contact-envelope" src="./assets/faq/envelope.svg" alt="" /><div class="contact-hands"><div class="contact-hand-layer contact-hand-purple"><img src="./assets/faq/illustration-purple.svg" alt="" /></div><div class="contact-hand-layer contact-hand-yellow"><img src="./assets/faq/illustration-yellow.svg" alt="" /></div></div></div>
+        </div>
+      </section>
+
+      <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+        <img class="pricing-blur pricing-blur-left" src="./assets/pricing/blur-left.svg" alt="" aria-hidden="true" />
+        <img class="pricing-blur pricing-blur-right" src="./assets/pricing/blur-right.svg" alt="" aria-hidden="true" />
+        <h2 id="pricing-title">Professional Growth for<br />your Business</h2>
+        <div class="billing-toggle" role="group" aria-label="Billing period"><span class="billing-selection" aria-hidden="true"></span><button class="billing-option is-selected" type="button" data-period="monthly" aria-pressed="true">Monthly</button><button class="billing-option" type="button" data-period="yearly" aria-pressed="false">Yearly</button><span>Save 10%</span></div>
+        <div class="pricing-grid">
+          <article class="price-card"><h3>Starter</h3><strong data-monthly="$13" data-yearly="$11.70">$13</strong><img class="price-divider" src="./assets/pricing/divider.svg" alt="" /><ul><li>1 Whatsapp channel</li><li>2 team members</li><li>Shared inbox &amp; quick replies</li><li>5-day free trial</li><li>Upgrade for API &amp; developer tools</li></ul><a href="#start">Get Started</a></article>
+          <article class="price-card price-card-growth"><div class="growth-glow"></div><img class="growth-sparkles" src="./assets/pricing/sparkles.png" alt="" /><h3>Growth</h3><strong data-monthly="$25" data-yearly="$22.50">$25</strong><div class="growth-details"><ul><li>2 Whatsapp channel</li><li>5 team members</li><li>All automations</li><li>Campaigns</li><li>API access &amp; keys</li><li>AI features</li></ul></div><a href="#start">Get Started</a></article>
+          <article class="price-card"><h3>Business</h3><strong data-monthly="$50" data-yearly="$45">$50</strong><img class="price-divider" src="./assets/pricing/divider.svg" alt="" /><ul><li>7 Whatsapp channel</li><li>10 team members</li><li>Everything in Growth</li><li>Priority support</li><li>Audit log &amp; webhooks</li></ul><a href="#start">Get Started</a></article>
+          <article class="price-card"><h3>Enterprise</h3><strong>Custom</strong><img class="price-divider" src="./assets/pricing/divider.svg" alt="" /><ul><li>Volume &amp; security tailored to you</li><li>Dedicated support</li><li>Custom SLA</li><li>White-label &amp; on-prem</li><li>Audit log &amp; webhooks</li></ul><a href="#start">Get Started</a></article>
+        </div>
+      </section>
+
+      <footer class="site-footer" aria-label="Site footer">
+        <img class="footer-blur footer-blur-left" src="./assets/footer/blur-left.svg" alt="" aria-hidden="true" />
+        <img class="footer-blur footer-blur-right" src="./assets/footer/blur-right.svg" alt="" aria-hidden="true" />
+        <div class="footer-inner">
+          <div class="footer-cta">
+            <div>
+              <h2>Ready to get Closer<br />to your Customers?</h2>
+              <p>No Moderation Required Use any WhatsApp Number</p>
+            </div>
+            <a href="#start">Start now</a>
+          </div>
+          <div class="footer-content">
+            <div class="footer-newsletter"><img src="./assets/tabi-logo.svg" alt="Tabi" /><p>Sign to receive new updates.</p></div>
+            <nav class="footer-links" aria-label="Footer navigation">
+              <div><span>Products</span><a href="#sdk">SDKs</a><a href="#developer">Developers</a></div>
+              <div><span>Resources</span><a href="./api-docs.html">API Docs</a><a href="#support">Support</a></div>
+              <div><span>Company</span><a href="#terms">Terms of Use</a><a href="#privacy">Privacy Policy</a></div>
+              <div class="footer-social"><span>Follow Us</span><div><a href="https://www.instagram.com/tabi.africa/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><img src="./assets/footer/instagram.svg" alt="" /></a><a href="https://www.linkedin.com/company/tabi-afri/posts/?viewAsMember=true" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="./assets/footer/linkedin.svg" alt="" /></a><a href="https://x.com/tabi_africa" aria-label="X" target="_blank" rel="noopener noreferrer"><img src="./assets/footer/x.svg" alt="" /></a><a href="https://youtube.com" aria-label="YouTube"><img src="./assets/footer/youtube.svg" alt="" /></a><a href="https://tiktok.com" aria-label="TikTok"><img src="./assets/footer/tiktok.svg" alt="" /></a></div></div>
+            </nav>
+            <small>© 2026 Tabi Global</small>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
